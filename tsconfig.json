@@ -13,10 +13,9 @@
     "alwaysStrict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "noEmit": true,
+    "resolveJsonModule": true
   },
   "include": ["src"],
   "exclude": ["build", "node_modules", "coverage"]
