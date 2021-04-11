@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  infra-test1-backend:
+    build: .
+    ports:
+      - '8000:8000'
+
+  infra-test1-frontend:
+    build: https://github.com/sandb0/infra-test1-frontend
+    ports:
+      - '3000:3000'
